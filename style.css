@@ -1,0 +1,61 @@
+*, *::before, *::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, rgba(3, 3, 3, 0.849), rgba(75, 75, 75, 0.89));
+    color: #fff;
+}
+#wrapper{
+    width: 33rem;
+    height: 20rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 4px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: rgba(34, 34, 58, 0.863);
+}
+.text{
+    font-size: 3rem;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.945);
+    font-weight: 700;
+}
+.number{
+    font-size: 6rem;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.945);
+    font-weight: 1000;
+}
+.buttons button{
+    margin: 10px;
+    padding: 5px;
+    outline: none;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 6px 4px rgba(128, 128, 128, 0.836);
+    cursor: pointer;
+    color: #272727;
+    background-color: rgb(204, 196, 196);
+    transition: 600ms;
+    border-radius: 5px;
+}
+.buttons button:hover{
+    color: rgb(204, 196, 196);
+    background-color: #272727;
+}
+.buttons button:active{
+    box-shadow: none;
+}
